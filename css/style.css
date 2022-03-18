@@ -1,2 +1,59 @@
 
 
+.home__description {
+    color:#dd5929 ;
+    margin-left: 9.5%;
+    margin-top: 5%;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.abouthead  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-left: 9.5%;
+    margin-top: 5%;
+    color:#dd5929
+}
+
+.carousel_caption{
+    color:#dd5929;
+    margin-top: 2em;
+    margin-left: 20%;   
+}
+
+.carousel_caption p{ 
+    font-size: smaller;
+    font-style: italic;
+
+
+}
+
+.mission {
+    gap: 0;
+}
+
+.mission__container {
+    padding-top: 2rem;
+}
+
+.mission__content {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+    text-align: justify;
+}
+
+/* .mission__content h4 {
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+} */
+
+.text-warning {
+    margin: .5rem;
+}
+
+.mission__content p {
+    margin-bottom: 2rem;
+}
