@@ -25,35 +25,67 @@
 .carousel_caption p{ 
     font-size: smaller;
     font-style: italic;
+}
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px
 
 }
+
+
+
+
+
+/* .mission{
+    background-color: #007bff;
+    border-radius: 5%;
+    width: 50vw; 
+    height: 300px;
+    color: white;
+    overflow-y: scroll;
+    margin: 20px;
+    padding: 20px;
+} */
+    
+  
+
+
+
+
+
+.
+/* }
 
 .mission {
     gap: 0;
-}
+} */
 
-.mission__container {
+/* .mission__container {
     padding-top: 2rem;
-}
+} */
 
-.mission__content {
+/* .mission__content {
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.5rem;
     text-align: justify;
-}
+    color: #dd5929;
+} */
 
 /* .mission__content h4 {
     margin: .5rem;
     margin-bottom: 1.5rem;
 } */
-
+/* 
 .text-warning {
     margin: .5rem;
 }
 
 .mission__content p {
-    margin-bottom: 2rem;
-}
+    margin-bottom: 2rem; */
+
+
+
