@@ -43,6 +43,49 @@
 }
 
 
+/* Footer */
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 5px;
+  height: 80px; 
+}
+
+
+{
+  box-sizing: border-box;
+}
+
+.column_right {background-color:#ccc
+}
+
+.column_middle{background-color:#bbb
+
+}
+
+.column_left{background-color:#aaa
+
+}
+
+.row{background-color:#aaa
+
+}
 
 
 
@@ -63,9 +106,6 @@
 
 
 
-
-
-.
 /* }
 
 .mission {
@@ -97,5 +137,7 @@
 .mission__content p {
     margin-bottom: 2rem; */
 
-
+i {
+    color: #dd5929;
+}
 
